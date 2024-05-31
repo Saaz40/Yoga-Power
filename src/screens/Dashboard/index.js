@@ -180,6 +180,8 @@ const Dashboard = ({navigation}) => {
     language === 'English' ? dataEnglish : dataHindi,
   );
 
+  const hey = () => {};
+
   useEffect(() => {
     console.log('Language changed:', language);
     setData(language === 'English' ? dataEnglish : dataHindi);
